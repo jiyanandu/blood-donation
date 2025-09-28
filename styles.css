@@ -1,0 +1,15 @@
+/* styles.css — small, modern aesthetic */
+:root {
+  --brand: #dc3545;
+  --muted: #6c757d;
+}
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #f8f9fa;
+  color: #212529;
+}
+.card { border-radius: 12px; }
+.navbar-brand { letter-spacing: .4px; }
+.table > thead > tr > th { border-bottom-width: 2px; }
+.btn-danger, .bg-danger { background-color: var(--brand) !important; border-color: var(--brand) !important; }
+small.text-muted { color: var(--muted) !important; }
